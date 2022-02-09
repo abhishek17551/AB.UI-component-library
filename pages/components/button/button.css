@@ -12,59 +12,63 @@
 .btn {
     padding: 0.65rem;
     border-radius: 0.25rem;
-    /* margin: 0.5rem; */
+    border: none;
+}
+
+.btn-outline {
+  background: transparent;
 }
 
 .primary-btn{
-  border: none;
+  
   color: var(--primary-text-color);
   background: var(--primary-color-light);
 }
 
 .secondary-btn{
-    border: none;
+   
     color: var(--primary-text-color);
     background: var(--secondary-color);
 }
 
 .success-btn{
-    border: none;
+    
     color: var(--primary-text-color);
     background: var(--primary-green);
 }
 
 .danger-btn{
-    border: none;
+   
     color: var(--primary-text-color);
     background: var(--primary-red);
 }
 
 .warning-btn{
-    border: none;
+    
     color: var(--primary-text-color);
     background: var(--primary-yellow);
 }
 
 .info-btn{
-    border: none;
+    
     color: var(--primary-text-color);
     background: var(--primary-blue);
 }
 
 .light-btn{
-    border: none;
+   
     color: var(--primary-color-dark);
     background: var(--primary-text-color);
 }
 
 .dark-btn{
-    border: none;
+    
     color: var(--primary-text-color);
     background: var(--primary-black);
 }
 
 .link-btn{
-    border: none;
+    
     color: var(--dark-blue);
     background: var(--primary-text-color);
     text-decoration: underline
@@ -117,51 +121,51 @@
 .outline-primary-btn{
     border: 1.5px solid;
     color: var(--primary-color-dark);
-    background: transparent;
+    
   }
   
 .outline-secondary-btn{
       border: 1.5px solid;
       color: var(--secondary-color-dark);
-      background: transparent;
+     
     
   }
   
 .outline-success-btn{
       border: 1.5px solid;
       color: var(--primary-green);
-      background: transparent;
+      
     
   }
   
 .outline-danger-btn{
       border: 1.5px solid;
       color: var(--primary-red);
-      background: transparent;
+      
   }
   
 .outline-warning-btn{
       border: 1.5px solid;
       color: var(--primary-yellow);
-      background: transparent;
+      
   }
   
 .outline-info-btn{
       border: 1.5px solid;
       color: var(--primary-blue);
-      background: transparent;
+      
   }
   
 .outline-light-btn{
       border: 1.5px solid;
       color: var(--primary-color-lighter);
-      background: transparent;
+      
   }
   
 .outline-dark-btn{
       border: 1.5px solid;
       color: var(--primary-black);
-      background: transparent;
+      
   }
   
 
