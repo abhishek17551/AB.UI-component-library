@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/4e7b8dc12c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- navbar -->
+   
+        <nav class="navbar flex-sb">
+            <ul class="flex-row">
+                <li><img src="assets/logo.jpg" alt="logo" class=" mg-l-xs"></li>
+                <li><a href="#" class="padding-m">Home</a></li>
+                <li><a href="#" class="padding-m">Docs</a></li>
+            </ul>
+            <ul class="social-btns flex-row">
+                <li><a href="#" class="padding-m">Linkedin</a></li>
+                <li><a href="#" class="padding-m">Gitthub</a></li>
+            </ul>
+        </nav>
+
+        <div class="wrapper">
+            <ul class="sidebar flex-column-sidebar">
+                
+                <a href="avatar.html" class="padding-m">Avatar</a>
+                <a href="alert.html" class="padding-m">Alert</a>
+                <a href="badge.html" class="padding-m">Badge</a>
+                <a href="button.html" class="padding-m">Button</a>
+                <a href="cards.html" class="padding-m">Card</a>
+                <a href="responsive-images.html" class="padding-m">Image</a>
+                <a href="input.html" class="padding-m">Input</a>
+                <a href="list.html" class="padding-m">List</a>
+                <a href="modal.html" class="padding-m">Modal</a>
+                <a href="other-utils.html" class="padding-m">Other Utilities</a>
+            </ul>
+      
+        
+        <div class="page-wrapper">
+            
+                <h1>Buttons</h1>
+                <p class="mg-t-s">Buttons are the soul of an interactive Web Application. Buttons allow users to take actions, and make choices, with a single tap.</p>
+                <div>
+                    <h3 class="mg-t-s">Simple Buttons</h3>
+                    <!-- the actual buttons -->
+                    <div class="buttons mg-t-s  mg-m">
+                        <div class="individual-btn">
+                            <button class="btn primary-btn">Primary</button>
+                        </div>
+                        <div class="individual-btn">
+                         <button class="btn secondary-btn">Secondary</button>
+                        </div>
+                        <div class="individual-btn">
+                         <button class="btn success-btn">Success</button>
+                        </div>
+                        <div class="individual-btn">
+                         <button class="btn danger-btn">Danger</button>
+                        </div>
+                        <div class="individual-btn">
+                         <button class="btn warning-btn">Warning</button>
+                        </div>
+                        <div class="individual-btn">
+                         <button class="btn info-btn">Info</button>
+                        </div>
+                        <div class="individual-btn">
+                         <button class="btn light-btn">Light</button>
+                        </div>
+                        <div class="individual-btn">
+                         <button class="btn dark-btn">Dark</button>
+                        </div>
+                        <div class="individual-btn">
+                            <button class="btn link-btn">Link</button>
+                        </div>
+                    </div>
+
+                    <div>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=solarized+dark&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522buttons%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522individual-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-btn%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522individual-btn%2522%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520secondary-btn%2522%253ESecondary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522individual-btn%2522%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520success-btn%2522%253ESuccess%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522individual-btn%2522%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520danger-btn%2522%253EDanger%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522individual-btn%2522%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520warning-btn%2522%253EWarning%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522individual-btn%2522%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520info-btn%2522%253EInfo%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522individual-btn%2522%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520light-btn%2522%253ELight%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522individual-btn%2522%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520dark-btn%2522%253EDark%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522individual-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520link-btn%2522%253ELink%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 100%; height: 726px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <div class="line-divider"></div>
+
+                <div>
+                        <h3 class="mg-t-m">Outlined Buttons</h3>
+                        <!-- the outlined  buttons -->
+                        <div class="buttons mg-t-s  mg-m">
+                            <div class="individual-btn">
+                                <button class="btn outline-primary-btn">Primary</button>
+                            </div>
+                            <div class="individual-btn">
+                                <button class="btn outline-secondary-btn">Secondary</button>
+                            </div>
+                            <div class="individual-btn">
+                                <button class="btn outline-success-btn">Success</button>
+                            </div>
+                            <div class="individual-btn">
+                                <button class="btn outline-danger-btn">Danger</button>
+                            </div>
+                            <div class="individual-btn">
+                                <button class="btn outline-warning-btn">Warning</button>
+                            </div>
+                            <div class="individual-btn">
+                                <button class="btn outline-info-btn">Info</button>
+                            </div>
+                            <div class="individual-btn">
+                                <button class="btn outline-light-btn">Light</button>
+                            </div>
+                            <div class="individual-btn">
+                                <button class="btn outline-dark-btn">Dark</button>
+                            </div>
+                        </div>
+                </div>
+                
+                <div>
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=solarized+dark&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522buttons%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522individual-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-primary-btn%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522individual-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-secondary-btn%2522%253ESecondary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522individual-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-success-btn%2522%253ESuccess%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522individual-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-danger-btn%2522%253EDanger%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522individual-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-warning-btn%2522%253EWarning%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522individual-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-info-btn%2522%253EInfo%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522individual-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-light-btn%2522%253ELight%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522individual-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-dark-btn%2522%253EDark%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 670px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <div class="line-divider"></div>
+
+                <div>
+                    <h3>Diasbled Buttons</h3>
+                    <!-- the disabled buttons -->
+                    <div class="buttons mg-t-s  mg-m">
+                        <div class="individual-btn">
+                            <button class="btn primary-btn disabled">Primary</button>
+                        </div>
+                        <div class="individual-btn">
+                         <button class="btn secondary-btn disabled">Secondary</button>
+                        </div>
+                        <div class="individual-btn">
+                         <button class="btn success-btn disabled">Success</button>
+                        </div>
+                        <div class="individual-btn">
+                         <button class="btn danger-btn disabled">Danger</button>
+                        </div>
+                        <div class="individual-btn">
+                         <button class="btn warning-btn disabled">Warning</button>
+                        </div>
+                        <div class="individual-btn">
+                         <button class="btn info-btn disabled">Info</button>
+                        </div>
+                        <div class="individual-btn">
+                         <button class="btn light-btn disabled">Light</button>
+                        </div>
+                        <div class="individual-btn">
+                         <button class="btn dark-btn disabled">Dark</button>
+                        </div>
+                        <div class="individual-btn">
+                            <button class="btn link-btn disabled">Link</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=solarized+dark&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522buttons%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522individual-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-btn%2520disabled%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522individual-btn%2522%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520secondary-btn%2520disabled%2522%253ESecondary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522individual-btn%2522%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520success-btn%2520disabled%2522%253ESuccess%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522individual-btn%2522%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520danger-btn%2520disabled%2522%253EDanger%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522individual-btn%2522%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520warning-btn%2520disabled%2522%253EWarning%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522individual-btn%2522%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520info-btn%2520disabled%2522%253EInfo%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522individual-btn%2522%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520light-btn%2520disabled%2522%253ELight%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522individual-btn%2522%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520dark-btn%2520disabled%2522%253EDark%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522individual-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520link-btn%2520disabled%2522%253ELink%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 750px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <div class="line-divider"></div>
+
+                <div>
+                    <h3>Icon Buttons</h3>
+                    <div class="icons mg-t-s  mg-m">
+                        <div class="individual-btn">
+                            <button class="icon-btn like"> <i class="far fa-heart"></i> </button>
+                        </div>
+                        <div class="individual-btn">
+                            <button class="icon-btn solid-like"> <i class="fas fa-heart"></i> </button>
+                        </div>
+                        <div class="individual-btn">
+                            <button class="icon-btn trash"> <i class="far fa-trash-alt"></i> </button>
+                        </div>
+                        <div class="individual-btn">
+                            <button class="icon-btn trash"> <i class="fas fa-trash-alt"></i> </button>
+                        </div>
+                        <div class="individual-btn">
+                            <button class="icon-btn transparent-close no-border"> <i class="fas fa-times"></i> </button>
+                        </div>
+                        <div class="individual-btn">
+                            <button class="icon-btn transparent-close"> <i class="far fa-window-close"></i> </button>
+                        </div>
+                        <div class="individual-btn">
+                            <button class="icon-btn solid-close no-border"> <i class="fas fa-window-close"></i> </button>
+                        </div>
+                        <div class="individual-btn">
+                            <button class="icon-btn shopping-cart"> <i class="fas fa-shopping-cart"></i> </button>
+                        </div>
+                        <div class="individual-btn">
+                            <button class="icon-btn comment"> <i class="far fa-comment"></i> </button>
+                        </div>
+                        <div class="individual-btn">
+                            <button class="icon-btn share"> <i class="fas fa-share-alt"></i> </button>
+                        </div>
+                        <div class="individual-btn">
+                            <button class="icon-btn share"> <i class="fas fa-share-square"></i> </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=solarized+dark&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch3%253EIcon%2520Buttons%253C%252Fh3%253E%250A%2520%2520%253Cdiv%2520class%253D%2522icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522individual-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-btn%2520like%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%2520%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522individual-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-btn%2520solid-like%2522%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522individual-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-btn%2520trash%2522%253E%2520%253Ci%2520class%253D%2522far%2520fa-trash-alt%2522%253E%253C%252Fi%253E%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522individual-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-btn%2520trash%2522%253E%2520%253Ci%2520class%253D%2522fas%2520fa-trash-alt%2522%253E%253C%252Fi%253E%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522individual-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-btn%2520transparent-close%2520no-border%2522%253E%2520%253Ci%2520class%253D%2522fas%2520fa-%2520times%2522%253E%253C%252Fi%253E%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522individual-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-btn%2520transparent-close%2522%253E%2520%253Ci%2520class%253D%2522far%2520fa-window-close%2522%253E%253C%252Fi%253E%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522individual-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-btn%2520solid-close%2520no-border%2522%253E%2520%253Ci%2520class%253D%2522fas%2520fa-window-close%2522%253E%253C%252Fi%253E%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522individual-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-btn%2520shopping-cart%2522%253E%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522individual-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-btn%2520comment%2522%253E%2520%253Ci%2520class%253D%2522far%2520fa-comment%2522%253E%253C%252Fi%253E%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522individual-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-btn%2520share%2522%253E%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522individual-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-btn%2520share%2522%253E%2520%253Ci%2520class%253D%2522fas%2520fa-share-square%2522%253E%253C%252Fi%253E%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 100%; height: 870px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <div class="line-divider"></div>
+
+                <div>
+                    <h3>Floating action Button</h3>
+                    <!-- the floating action button -->
+                    <div class="buttons mg-t-s  mg-m">
+                        <button class="floating-action-btn">+</button>
+                    </div>
+                </div>
+
+                <div>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=solarized+dark&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522buttons%2522%253E%250A%2520%2520%253Cbutton%2520class%253D%2522floating-action-btn%2522%253E%252B%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                    style="width: 100%; height: 242px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                </div>
+            </div>
+        </div>
+       
+   
+</body>
+</html>
