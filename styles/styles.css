@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Source+Serif+4:wght@400;600&display=swap');
+
+@import url("reset.css");
+@import url("spacing.css");
+@import url("align.css");
+@import url("utils.css");
+@import url("colors.css");
+@import url("fonts.css");
+@import url("avatar.css");
+@import url("alert.css");
+@import url("button.css");
+@import url("badge.css");
+@import url("responsive-images.css");
+@import url("modal.css");
+@import url("input.css");
+@import url("list.css");
+@import url("home.css");
+@import url("introduction.css");
+@import url("cards.css");
+
