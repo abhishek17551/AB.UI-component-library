@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/4e7b8dc12c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- navbar -->
+   
+        <nav class="navbar flex-sb">
+            <ul class="flex-row">
+                <li><img src="assets/logo.jpg" alt="logo" class=" mg-l-xs"></li>
+                <li><a href="#" class="padding-m">Home</a></li>
+                <li><a href="#" class="padding-m">Docs</a></li>
+            </ul>
+            <ul class="social-btns flex-row">
+                <li><a href="#" class="padding-m">Linkedin</a></li>
+                <li><a href="#" class="padding-m">Gitthub</a></li>
+            </ul>
+        </nav>
+
+        <div class="wrapper">
+            <ul class="sidebar flex-column-sidebar">
+                
+                <a href="avatar.html" class="padding-m">Avatar</a>
+                <a href="alert.html" class="padding-m">Alert</a>
+                <a href="badge.html" class="padding-m">Badge</a>
+                <a href="button.html" class="padding-m">Button</a>
+                <a href="cards.html" class="padding-m">Card</a>
+                <a href="responsive-images.html" class="padding-m">Image</a>
+                <a href="input.html" class="padding-m">Input</a>
+                <a href="list.html" class="padding-m">List</a>
+                <a href="#" class="padding-m">Modal</a>
+                <a href="other-utils.html" class="padding-m">Other Utilities</a>
+            </ul>
+      
+        
+            <div class="page-wrapper">
+                <h2>Cards</h2>
+                <p class="mg-t-s">A card is container for a few short, related pieces of information. It roughly resembles a playing card in size and shape, and is intended as a linked, short representation of a conceptual unit. </p>
+                
+                <!-- Vertical card -->
+                <div>
+                    <h3 class="mg-t-s">Vertical Card</h3>
+                        <div class="flex-center mg-t-s">
+                            <div class="card pointer">
+                                <img src="assets/red_ranger_gemini.png" alt="red_ranger" class="responsive-image">
+                                <div class="card-description flex-sb-column">
+                                    <div class="primary flex-sb-column">
+                                        <h4>RED</h4>
+                                        <small class="light">RED RANGER GEMINI</small>
+                                        <div class="price m-text">
+                                            <h6><strong>Rs 16,50,000</strong></h6>
+                                            <h6 class="light strikethrough">Rs 18,50,000</h6>
+                                            <h6 class="discount">(11% Off)</h6>
+                                        </div>
+                                        <button class="btn primary-btn">Add to cart</button>
+                                    </div>
+                                    <button class="btn-icon solid-like wishlist">
+                                        <i class="fa fa-heart"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>    
+
+                        <div>
+                            <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=solarized+dark&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522flex-center%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card%2520pointer%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522assets%252Fred_ranger_gemini.png%2522%2520alt%253D%2522red_ranger%2522%2520class%253D%2522responsive-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-description%2520flex-sb-column%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522primary%2520flex-sb-column%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253ERED%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522light%2522%253ERED%2520RANGER%2520GEMINI%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price%2520m-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%253E%253Cstrong%253ERs%252016%252C50%252C000%253C%252Fstrong%253E%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522light%2520strikethrough%2522%253ERs%252018%252C50%252C000%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522discount%2522%253E%2811%2525%2520Off%29%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-btn%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-icon%2520solid-like%2520wishlist%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%2520%2520%2520%2520"
+                            style="width: 100%; height: 558px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                </div>
+
+                <div class="line-divider"></div>
+
+                <!-- Vertical cards with badge -->
+                <div>
+                    <h3>Vertical Card with badge</h3>
+                        <div class="flex-center mg-t-s" style="justify-content:space-evenly;">
+                            <div class="card pointer">
+                                <img src="assets/red_ranger_gemini.png" alt="red_ranger" class="responsive-image">
+                                <span class="card-badge">NEW!</span>
+                                <div class="card-description flex-sb-column">
+                                    <div class="primary flex-sb-column">
+                                        <h4>RED</h4>
+                                        <small class="light">RED RANGER GEMINI</small>
+                                        <div class="price m-text">
+                                            <h6><strong>Rs 16,50,000</strong></h6>
+                                            <h6 class="light strikethrough">Rs 18,50,000</h6>
+                                            <h6 class="discount">(11% Off)</h6>
+                                        </div>
+                                        <button class="btn primary-btn">Add to cart</button>
+                                    </div>
+                                    <button class="btn-icon solid-like wishlist">
+                                        <i class="fa fa-heart"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+
+                            <div class="card pointer">
+                                <img src="assets/red_v_raptor.png" alt="red_v_raptor" class="responsive-image">
+                                <span class="card-badge">SALE!</span>
+                                <div class="card-description flex-sb-column">
+                                    <div class="primary flex-sb-column">
+                                        <h4>RED</h4>
+                                        <small class="light">RED V-RAPTOR</small>
+                                        <div class="price m-text">
+                                            <h6><strong>Rs 14,00,000</strong></h6>
+                                            <h6 class="light strikethrough">Rs 17,50,000</h6>
+                                            <h6 class="discount">(20% Off)</h6>
+                                        </div>
+                                        <button class="btn primary-btn">Add to cart</button>
+                                    </div>
+                                    <button class="btn-icon solid-like wishlist">
+                                        <i class="fa fa-heart"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- code snippet here -->
+                         <div>
+                            <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=solarized+dark&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520pointer%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522assets%252Fred_ranger_gemini.png%2522%2520alt%253D%2522red_ranger%2522%2520class%253D%2522responsive-image%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522card-badge%2522%253ENEW%21%253C%252Fspan%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-description%2520flex-sb-column%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522primary%2520flex-sb-column%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253ERED%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522light%2522%253ERED%2520RANGER%2520GEMINI%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price%2520m-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%253E%253Cstrong%253ERs%252016%252C50%252C000%253C%252Fstrong%253E%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522light%2520strikethrough%2522%253ERs%252018%252C50%252C000%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522discount%2522%253E%2811%2525%2520Off%29%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-btn%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-icon%2520solid-like%2520wishlist%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 100%; height: 540px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                          </iframe>
+                         </div>
+                </div>
+
+                <div class="line-divider"></div>
+
+                <!-- Card with Dismiss -->
+                <div>
+                    <h3>Card with Dismiss</h3>
+                    <div class="flex-center mg-t-s">
+                        <div class="dismiss-card pointer">
+                            <img src="assets/red_ranger_gemini.png" alt="red_ranger" class="responsive-image">
+                            
+                            <div class="dismiss-card-description flex-sb-column">
+                                <h4>RED RANGER GEMINI</h4>
+                                <p>An all-in-one camera system that features an integrated, less complex platform for filmmakers.</p>
+                                <button class="btn primary-btn mg-t-xs">View details</button>
+                            </div>
+                            <button class="icon-btn solid-close no-border"> <i class="fas fa-window-close"></i> </button>
+                        </div>
+                    </div>
+                     <!-- code snippet here -->
+                     <div>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=solarized+dark&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522flex-center%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522dismiss-card%2520pointer%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522assets%252Fred_ranger_gemini.png%2522%2520alt%253D%2522red_ranger%2522%2520class%253D%2522responsive-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-btn%2520solid-close%2520no-border%2520%2522%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522dismiss-card-description%2520flex-sb-column%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253ERED%2520RANGER%2520GEMINI%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EAn%2520all-in-one%2520camera%2520system%2520that%2520features%2520an%2520integrated%252C%2520less%2520complex%2520platform%2520for%2520filmmakers.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-btn%2520mg-t-xs%2522%253EView%2520details%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 409px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+                     </div>
+                </div>
+
+                <div class="line-divider"></div>
+
+                <!-- Overlay card -->
+                <div>
+                    <h3>Overlay Card</h3>
+                    <div class="flex-center mg-t-s">
+                        <div class="overlay-card pointer">
+                            <img src="assets/red_dsmc2_display.png" alt="red_ranger" class="responsive-image">
+                            <div class="overlay-text">
+                                <h4>DSMC2 RED TOUCH</h4>
+                                <p>Delivers ultimate high-definition viewing experience for recording, viewing footage on your DSMC2 camera system.</p>
+                            </div>
+                            <button class="icon-btn trash"> <i class="fas fa-trash-alt"></i> </button>
+                        </div>
+                    </div>
+                     <!-- code snippet here -->
+                     <div>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=solarized+dark&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522overlay-card%2520pointer%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522assets%252Fred_dsmc2_display.png%2522%2520alt%253D%2522red_ranger%2522%2520class%253D%2522responsive-image%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522overlay-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253EDSMC2%2520RED%2520TOUCH%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EDelivers%2520ultimate%2520high-definition%2520viewing%2520experience%2520for%2520recording%252C%2520viewing%2520footage%2520on%2520your%2520DSMC2%2520camera%2520system.%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-btn%2520trash%2522%253E%2520%253Ci%2520class%253D%2522fas%2520fa-trash-alt%2522%253E%253C%252Fi%253E%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 353px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+                     </div>
+                </div>
+
+                <div class="line-divider"></div>
+
+                <!-- Text only card -->
+                <div>
+                    <h3>Text only Card</h3>
+                    <div class="flex-center pointer mg-t-s">
+                        <div class="text-card padding-s">
+                            <h3 class="title">Card title</h3>
+                            <h5 class="subtitle">Card Subtitle</h5>
+                            <p class="mg-t-xs">The goal of life is to make your heartbeat match the beat of the universe, to match your nature with Nature.</p>
+                            <button class="btn primary-btn mg-t-xs">Navigate</button>
+                        </div>
+                    </div>
+                     <!-- code snippet here -->
+                     <div>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=solarized+dark&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522flex-center%2520pointer%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-card%2520padding-s%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522title%2522%253ECard%2520title%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522subtitle%2522%253ECard%2520Subtitle%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522mg-t-xs%2522%253EThe%2520goal%2520of%2520life%2520is%2520to%2520make%2520your%2520heartbeat%2520match%2520the%2520beat%2520of%2520the%2520universe%252C%2520to%2520match%2520your%2520nature%2520with%2520Nature.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-btn%2520mg-t-xs%2522%253ENavigate%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 353px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+                     </div>
+                </div>
+
+                <div class="line-divider"></div>
+                
+                    <!-- Horizontal card -->
+                    <div>
+                    <h3>Horizontal card</h3>
+                    <div class="flex-center mg-t-s">
+                        <div class="horizontal-card padding-s">
+                            <div class="cart-item">
+                                <div class="cart-item-image">
+                                    <img src="assets/red_ranger_gemini.png" alt="red_ranger" class="responsive-image">
+                                </div>
+                                <div class="flex-row-wrap flex-sb">
+                                    <div class="cart-item-details">
+                                        <div class="primary-details flex-sb-column">
+                                            <h4>RED</h4>
+                                            <p class="light">RED RANGER GEMINI</p>
+                                            <p>15.4 Megapixel Dual Sensitivity CMOS</p>
+                                        </div>
+                                    
+                                    <div class="cart-item-details-btns">
+                                        <span class="badge s-text padding--xxs primary-badge">Qty: 1 <i class="fa fa-caret-down"></i></span>
+                                    </div>
+                                </div>
+                                <div class="cart-item-price">
+                                    <h6><strong>Rs 16,50,000</strong></h6>
+                                    <h6 class="light strikethrough">Rs 18,50,000</h6>
+                                    <h6 class="discount">(11% Off)</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="horizontal-card-btns">    
+                            <div>
+                                <button class = "remove">REMOVE</button>
+                            </div>
+                            <div>
+                                <button class = "move-to-wishlist">MOVE TO WISHLIST</button>
+        
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- code snippet here -->
+                    <div>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=solarized+dark&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522flex-center%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522horizontal-card%2520padding-s%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cart-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cart-item-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522assets%252Fred_ranger_gemini.png%2522%2520alt%253D%2522red_ranger%2522%2520class%253D%2522responsive-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-row-wrap%2520flex-sb%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cart-item-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522primary-details%2520flex-sb-column%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253ERED%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522light%2522%253ERED%2520RANGER%2520GEMINI%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E15.4%2520Megapixel%2520Dual%2520Sensitivity%2520CMOS%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cart-item-details-btns%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520s-text%2520padding--xxs%2520primary-badge%2522%253EQty%253A%25201%2520%253Ci%2520class%253D%2522fa%2520fa-caret-down%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cart-item-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%253E%253Cstrong%253ERs%252016%252C50%252C000%253C%252Fstrong%253E%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522light%2520strikethrough%2522%253ERs%252018%252C50%252C000%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522discount%2522%253E%2811%2525%2520Off%29%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522horizontal-card-btns%2522%253E%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%2520%253D%2520%2522remove%2522%253EREMOVE%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%2520%253D%2520%2522move-to-wishlist%2522%253EMOVE%2520TO%2520WISHLIST%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 875px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+
+       
+   
+</body>
+</html>
