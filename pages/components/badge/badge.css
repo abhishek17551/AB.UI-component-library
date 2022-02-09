@@ -14,13 +14,13 @@
 .pill-primary-badge{
     color:var(--primary-text-color);
     background: var(--primary-color);
-    border-radius: 10px;
+    border-radius: 22%;
 }
 
 .pill-secondary-badge{
     border: 1.5px solid var(--primary-color);
     color: var(--primary-color);
-    border-radius: 10px;
+    border-radius: 22%;
 }
 
 
