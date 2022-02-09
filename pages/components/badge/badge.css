@@ -42,6 +42,8 @@
     color: var(--primary-text-color);
 }
 
+
+
 .notification-badge{
     position: absolute;
     min-width: 1.2rem;
