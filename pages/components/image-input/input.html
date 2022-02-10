@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../../styles/styles.css">
+    <link rel="icon" href="../../../assets" type="image/icon type" />
+    <link rel="stylesheet" href="./input.css">
+    <link rel="stylesheet" href="../avatar/avatar.css">
+</head>
+<body>
+    <!-- navbar -->
+   
+        <nav class="navbar flex-sb">
+            <ul class="flex-row">
+                <li><img src="../../../assets/logo.jpg" alt="logo" class="mg-l-xs"></li>
+                <li><a href="../../../index.html" class="padding-m">Home</a></li>
+                <li><a href="../avatar/avatar.html" class="padding-m">Docs</a></li>
+            </ul>
+            <ul class="social-btns flex-row">
+                <li><a href="#" class="padding-m">Linkedin</a></li>
+                <li><a href="#" class="padding-m">Gitthub</a></li>
+            </ul>
+        </nav>
+
+        <div class="wrapper">
+            <ul class="sidebar flex-column-sidebar ">
+              
+                <a href="../avatar/avatar.html" class="padding-m">Avatar</a>
+                <a href="../alert/alert.html" class="padding-m">Alert</a>
+                <a href="../badge/badge.html" class="padding-m">Badge</a>
+                <a href="../button/button.html" class="padding-m">Button</a>
+                <a href="../card/cards.html" class="padding-m">Card</a>
+                <a href="./responsive-images.html" class="padding-m">Image</a>
+                <a href="./input.html" class="padding-m">Input</a>
+                <a href="list.html" class="padding-m">List</a>
+                <a href="modal.html" class="padding-m">Modal</a>
+                <a href="other-utils.html" class="padding-m">Other Utilities</a>
+            </ul>
+      
+        
+            <div class="page-wrapper">
+                <!-- Inputs -->
+                <h2>Inputs</h2>
+                <p class="mg-t-s">Inputs are necessary for user interaction with the website. Inputs are used to take information from the user, and then save the data to the server, accordingly.</p>
+                <!-- Label Inputs -->
+                <h4 class="mg-t-s">Label Inputs</h4>
+                <p class="mg-t-s"> Label Input has a label present at the top of the input field. They can be customized to show error error-message, and change color accordingly.</p>
+
+                <div class="label-input  flex-se-column padding-s mg-l-l mg-t-s">
+                    <div class="input-group  flex-column">
+                        <label for="username">Username *</label>
+                        <input type="text" placeholder="Enter username" class="label-input-item">
+                    </div>
+                    <div class="input-group flex-column mg-t-m ">
+                        <label for="password">Password *</label>
+                        <input type="password" placeholder="Enter password" class="label-input-item error-input">
+                    </div>
+                    <div class="error-msg mg-t-s">
+                        Wrong Password.Try Again!
+                    </div>
+                </div>
+                
+                <div>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=solarized+dark&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522label-input%2520%2520flex-se-column%2520padding-s%2520mg-l-l%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522input-group%2520%2520flex-column%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522username%2522%253EUsername%2520*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520placeholder%253D%2522Enter%2520username%2522%2520class%253D%2522label-input-item%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522input-group%2520flex-column%2520mg-t-m%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522password%2522%253EPassword%2520*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520placeholder%253D%2522Enter%2520password%2522%2520class%253D%2522label-input-item%2520error-input%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522error-msg%2520mg-t-s%2522%253E%250A%2520%2520%2520%2520%2520%2520Wrong%2520Password.Try%2520Again%21%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 100%; height: 428px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <div class="line-divider"></div>
+
+                <!-- Radio  -->
+                <h4 class="mg-t-s">Radio</h4>
+                <p class="mg-t-s">Radio buttons allow the user to select one option from a set.</p>
+
+                <div class="radio-input flex-se padding-s mg-l-l mg-t-s">
+                    <div class="radio">
+                        <label for="radio-1">
+                            <input type="radio" class="radio-1" checked>
+                            Checked
+                        </label>     
+                    </div>
+                    <div class="radio">
+                        <label for="radio-2">
+                            <input type="radio" class="radio-2">
+                            Unchecked
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label for="radio-3">
+                            <input type="radio" class="radio-3" disabled>
+                            Disabled
+                        </label>
+                    </div>
+                </div>
+
+                <div>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=solarized+dark&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522radio-input%2520flex-se%2520padding-s%2520mg-l-l%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522radio%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522radio-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520class%253D%2522radio-1%2522%2520checked%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Checked%250A%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%2520%2520%2520%2520%2520%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522radio%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522radio-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520class%253D%2522radio-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Unchecked%250A%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522radio%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522radio-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520class%253D%2522radio-3%2522%2520disabled%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Disabled%250A%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 100%; height: 558px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <div class="line-divider"></div>
+
+                <!-- Checkbox -->
+                <h4>Checkbox</h4>
+                <p class="mg-t-s">Checkboxes allow the user to select one or more items from a set.
+                    Checkboxes can be used to turn an option on or off.</p>
+                <p>If you have multiple options appearing in a list, you can preserve space by using checkboxes instead of on/off switches.</p> 
+                <p> you have a single option, avoid using a checkbox and use an on/off switch instead.</p>
+                
+                <div class="checkbox-input flex-se padding-s mg-l-l mg-t-s">
+                    <div class="checkbox mg-t-s">
+                        <label for="checkbox-1">
+                            <input type="checkbox" class="checkbox-1" checked>
+                            Checked
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label for="checkbox-2">
+                            <input type="checkbox" class="checkbox-2">
+                            Unchecked
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label for="checkbox-3">
+                            <input type="checkbox" class="checkbox-3" disabled>
+                            Disabled
+                        </label>
+                    </div>
+                </div>
+
+                <div>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=solarized+dark&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522checkbox-input%2520flex-se%2520padding-s%2520mg-l-l%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522checkbox-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520class%253D%2522checkbox-1%2522%2520checked%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Checked%250A%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522checkbox-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520class%253D%2522checkbox-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Unchecked%250A%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522checkbox-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520class%253D%2522checkbox-3%2522%2520disabled%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Disabled%250A%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 100%; height: 558px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+       
+   
+</body>
+</html>
