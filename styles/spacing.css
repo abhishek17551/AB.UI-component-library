@@ -118,3 +118,25 @@
 .mg-t-xxl{
     margin-top: 5rem;
 }
+
+/* border radius styles */
+
+.border-radius-xsm{
+    border-radius: 5px;
+}
+
+.border-radius-sm{
+    border-radius: 10px;
+}
+
+.border-radius-med{
+    border-radius: 15px;
+}
+
+.border-radius-lg{
+    border-radius: 20px;
+}
+
+.border-radius-xlg{
+    border-radius: 25px;
+}
