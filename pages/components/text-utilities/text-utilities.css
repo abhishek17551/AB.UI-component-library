@@ -1,0 +1,62 @@
+/* text of different sizes */
+
+.xs-text{
+    font-size: 0.75rem;
+    
+}
+
+.s-text{
+    font-size: 1rem;
+}
+
+.m-text{
+    font-size: 1.5rem;
+}
+
+.l-text{
+    font-size: 2rem;
+}
+
+.xl-text{
+    font-size: 2.5rem;
+}
+
+.xxl-text{
+    font-size: 3rem;
+}
+
+/* text alignment utilities */
+
+.text-left{
+    text-align: left;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+/* font weights */
+
+.font-weight-1{
+    font-weight: 250;
+}
+
+.font-weight-2{
+    font-weight: 450;
+}
+
+.font-weight-3{
+    font-weight: 650;
+}
+
+.font-weight-4{
+    font-weight: 850;
+}
+
+.font-weight-5{
+    font-weight: 1000;
+}
