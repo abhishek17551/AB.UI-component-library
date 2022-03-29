@@ -55,5 +55,28 @@ h4{
     font-size: 3rem;
 }
 
-/* font weights */
+/* text colors */
 
+.red-txt {
+    color: var(--primary-red)
+}
+
+.blue-txt {
+    color:var(--primary-blue);
+}
+
+.green-txt {
+    color: var(--primary-green);
+}
+
+.gray-txt {
+    color: var(--primary-color-lighter);
+}
+
+.black-txt {
+    color: var(--primary-black);
+}
+
+.white-txt {
+    color: var(--primary-white);
+}
