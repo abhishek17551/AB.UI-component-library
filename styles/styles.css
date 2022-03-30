@@ -18,4 +18,6 @@
 @import url("./introduction.css");
 @import url("../pages/components/card/cards.css");
 @import url("../pages/components/text-utilities/text-utilities.css");
+@import url("../pages/components/ratings/ratings.css");
+@import url("../pages/components/snackbar/snackbar.css");
 
